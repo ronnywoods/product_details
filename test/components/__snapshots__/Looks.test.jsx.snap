@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Looks Components should display like snapshot 1`] = `
+<div
+  className="looks"
+>
+  <div
+    className="looks-title"
+  >
+    <h4>
+       COMPLETE THE LOOK 
+    </h4>
+  </div>
+  <div
+    className="column"
+  >
+    <div
+      className="looks-pics"
+    >
+      <div
+        aria-controls="shirtView"
+        aria-expanded="false"
+        className="look-card"
+        data-target="#shirtView"
+        data-toggle="collapse"
+        id="shirtCard"
+        onClick={[Function]}
+        role="button"
+      >
+        <h6>
+          <img
+            src="https://s3-us-west-1.amazonaws.com/adidas-shoe/shirt4.jpg"
+          />
+          <br />
+          <br />
+          $
+          40
+        </h6>
+      </div>
+      <div
+        aria-controls="jacketView"
+        aria-expanded="false"
+        className="look-card"
+        data-target="#jacketView"
+        data-toggle="collapse"
+        id="jacketCard"
+        onClick={[Function]}
+        role="button"
+      >
+        <h6>
+          <img
+            src="https://s3-us-west-1.amazonaws.com/adidas-shoe/jacket1.jpg"
+          />
+          <br />
+          <br />
+          $
+          80
+        </h6>
+      </div>
+      <div
+        aria-controls="pantView"
+        aria-expanded="false"
+        className="look-card"
+        data-target="#pantView"
+        data-toggle="collapse"
+        id="pantCard"
+        onClick={[Function]}
+        role="button"
+      >
+        <h6>
+          <img
+            src="https://s3-us-west-1.amazonaws.com/adidas-shoe/pant1.jpg"
+          />
+          <br />
+          <br />
+          $
+          75
+        </h6>
+      </div>
+    </div>
+    <div
+      aria-labelledby="shirtCard"
+      className="collapse"
+      data-parent=".looks"
+      id="shirtView"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-sm look-img"
+          >
+            <img
+              height="180"
+              src="https://s3-us-west-1.amazonaws.com/adidas-shoe/shirt4.jpg"
+              width="180"
+            />
+          </div>
+          <div
+            className="col-sm look-desc"
+          >
+            <h5
+              className="look-clothing-name"
+            >
+              OUTLINE TREFOIL TEE
+            </h5>
+            <h6
+              className="look-clothing-price"
+            >
+              $
+              40
+            </h6>
+            <div
+              className="dropdown dropdown-complete-look"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                className="btn select-size-btn"
+                data-toggle="dropdown"
+                id="dropdownMenuButton"
+                type="button"
+              >
+                <span
+                  className="float-left look-size"
+                >
+                  SELECT SIZE
+                </span>
+                <i
+                  className="arrow down"
+                />
+              </button>
+              <div
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-menu select-size-dropdown"
+              >
+                <div
+                  className="select-size-menu"
+                >
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    S
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    M
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    L
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    XL
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    2XL
+                  </div>
+                </div>
+              </div>
+              <br />
+              <button
+                className="disabled"
+                disabled={true}
+                id="add-to-bag"
+              >
+                <span
+                  className="bag-text"
+                >
+                  ADD TO BAG
+                </span>
+                <span
+                  id="arrow-right"
+                >
+                  →
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="jacketCard"
+      className="collapse"
+      data-parent=".looks"
+      id="jacketView"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-sm look-img"
+          >
+            <img
+              height="180"
+              src="https://s3-us-west-1.amazonaws.com/adidas-shoe/jacket1.jpg"
+              width="180"
+            />
+          </div>
+          <div
+            className="col-sm look-desc"
+          >
+            <h5
+              className="look-clothing-name"
+            >
+              SST WINDBREAKER
+            </h5>
+            <h6
+              className="look-clothing-price"
+            >
+              $
+              80
+            </h6>
+            <div
+              className="dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                className="btn select-size-btn"
+                data-toggle="dropdown"
+                id="dropdownMenuButton"
+                type="button"
+              >
+                <span
+                  className="float-left look-size"
+                >
+                  SELECT SIZE
+                </span>
+                <i
+                  className="arrow down"
+                />
+              </button>
+              <div
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-menu select-size-dropdown"
+              >
+                <div
+                  className="select-size-menu"
+                >
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    S
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    M
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    L
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    XL
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    2XL
+                  </div>
+                </div>
+              </div>
+              <br />
+              <button
+                className="disabled"
+                disabled={true}
+                id="add-to-bag"
+              >
+                <span
+                  className="bag-text"
+                >
+                  ADD TO BAG
+                </span>
+                <span
+                  id="arrow-right"
+                >
+                  →
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-labelledby="pantCard"
+      className="collapse"
+      data-parent=".looks"
+      id="pantView"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-sm look-img"
+          >
+            <img
+              height="180"
+              src="https://s3-us-west-1.amazonaws.com/adidas-shoe/pant1.jpg"
+              width="180"
+            />
+          </div>
+          <div
+            className="col-sm look-desc"
+          >
+            <h5
+              className="look-clothing-name"
+            >
+              TREFOIL PANTS
+            </h5>
+            <h6
+              className="look-clothing-price"
+            >
+              $
+              75
+            </h6>
+            <div
+              className="dropdown"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="true"
+                className="btn select-size-btn"
+                data-toggle="dropdown"
+                id="dropdownMenuButton"
+                type="button"
+              >
+                <span
+                  className="float-left look-size"
+                >
+                  SELECT SIZE
+                </span>
+                <i
+                  className="arrow down"
+                />
+              </button>
+              <div
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-menu select-size-dropdown"
+              >
+                <div
+                  className="select-size-menu"
+                >
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    S
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    M
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    L
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    XL
+                  </div>
+                  <div
+                    className="select-size"
+                    onClick={[Function]}
+                  >
+                    2XL
+                  </div>
+                </div>
+              </div>
+              <br />
+              <button
+                className="disabled"
+                disabled={true}
+                id="add-to-bag"
+              >
+                <span
+                  className="bag-text"
+                >
+                  ADD TO BAG
+                </span>
+                <span
+                  id="arrow-right"
+                >
+                  →
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

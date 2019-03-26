@@ -1,0 +1,18 @@
+language: node_js
+env:
+- NODE_ENV=test
+node_js:
+- 6.13.0
+services:
+  - mongodb
+cache:
+  directories:
+  - node_modules
+before_script:
+- sleep 15
+- mongo adidasnewtest --eval 'db.createUser({user:"travis",pwd:"test",roles:["readWrite"]});'
+before_install:
+- openssl aes-256-cbc -K $encrypted_4aa93aae2784_key -iv $encrypted_4aa93aae2784_iv
+  -in config.js.enc -out config.js -d
+# - mysql -u root < database/schema.sql
+# - node test/server/testSetup.js

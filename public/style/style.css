@@ -1,0 +1,1033 @@
+@font-face {
+    font-family: 'adineue PRO Cyr Light Web';
+    src: url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-LightWeb.eot');
+    src: url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-LightWeb.eot?#iefix') format('embedded-opentype'),
+        url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-LightWeb.woff') format('woff'),
+        url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-LightWeb.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'adineue PRO Cyr Bold Web';
+    src: url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-BoldWeb.eot.eot');
+    src: url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-BoldWeb.eot?#iefix') format('embedded-opentype'),
+        url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-BoldWeb.woff') format('woff'),
+        url('https://s3.amazonaws.com/abibasstatics/adineuePROCyr-BoldWeb.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'adihaus';
+    src: url('https://s3.amazonaws.com/abibasstatics/AdihausDIN.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#top-navbar {
+  margin-bottom: 650px;
+}
+
+body {
+  font-family: 'adineue PRO Cyr Light Web';
+  color: #000000;
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-family: 'adineue PRO Cyr Bold Web';
+  letter-spacing: 1.5px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'adineue PRO Cyr Bold Web';
+  letter-spacing: 1.5px;
+  float: left;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  font-size: 3.0rem;
+}
+
+a {
+  opacity: 100 !important;
+}
+
+button {
+  box-shadow: none;
+}
+
+.navbar {
+  padding: 0rem 8rem 2rem;
+  background-color: black;
+  height: 50px;
+}
+
+.topBar {
+  height: 30px;
+  font-family: 'adineue PRO Cyr Light Web';
+  font-size: 11px;
+  background: linear-gradient(90deg,#000 30%,transparent 50%),linear-gradient(180deg,#000 0,#363738);
+}
+
+.bBar {
+  height: 50px;
+  font-family: 'adineue PRO Cyr Light Web';
+  font-size: 11px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  font-family: 'adihaus';
+  float: right;
+  margin-top: 0px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search input {
+  display: block;
+  padding: 2px;
+  width: 100px;
+  height: 28px;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn:focus {
+   box-shadow: none;
+   border-radius: 0px;
+   border: 1px solid #000000;
+}
+
+button:focus {
+  outline: none;
+}
+
+.card {
+  border: none;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.card-body {
+  margin-top: -15px;
+  margin-left: -10px;
+}
+
+.card-body span {
+  line-height: 2;
+}
+
+.like {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 130px;
+}
+
+.likes-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'adihaus';
+  margin-bottom: 60px;
+}
+
+.like-type {
+  font-family: 'adihaus';
+  font-size: 12px;
+  color: #767677;
+  line-height: 1.5;
+}
+
+.like-name {
+  font-family: 'adihaus';
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.like-price {
+  font-family: 'adihaus';
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#carouselLikes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.nav-logo {
+  margin-top: -30px;
+  margin-left: 4%;
+}
+
+.bBar li {
+  list-style-type: none;
+  font-family: 'adihaus';
+  margin-left: 8px;
+}
+
+.topBar li {
+  list-style-type: none;
+  font-family: 'adihaus';
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#search-box {
+  color: black;
+  background-color: white;
+}
+
+.help {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.help li {
+  font-size: 11px;
+}
+
+.help li:hover {
+  cursor: pointer;
+}
+
+.choices {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.choices li {
+  margin-top: 10px;
+  padding: 5px 2px 15px 2px;
+  margin-right: -5px;
+}
+
+.gray {
+  color: #767677;
+  cursor: default;
+}
+
+.choice-menu:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #000000 !important;
+}
+
+.choices span:hover {
+  cursor: pointer;
+}
+
+.choices span {
+  font-family: 'adihaus';
+  margin-right: 2px;
+}
+
+#fbold:hover {
+  cursor: pointer;
+  color: #000000 !important;
+  background-color: white !important;
+}
+
+.white {
+  color: white;
+}
+
+.details {
+  display: flex;
+  flex-grow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail {
+  line-height: 50px;
+  text-align: center;
+  font-family: 'adineue PRO Cyr Bold Web';
+  font-size: 15px;
+  letter-spacing: 3px;
+  height: 50px;
+  width: 540px;
+}
+
+.selected {
+  outline-style: solid;
+  box-shadow: inset 0 -2px 0 #000;
+  outline-width: thin;
+  outline-color: black;
+  border-bottom-width: 10px;
+}
+
+.unselected {
+  color: #767677;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+}
+
+.unselected:hover {
+  color: #004040;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-1000 {
+  width: 1080px;
+}
+
+.title-1000 h1 {
+  font-size: 55px !important;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.detail-name {
+  font-family: 'adineue PRO Cyr Bold Web';
+  font-size: 32px;
+}
+
+.short-desc {
+  font-family: 'adineue PRO Cyr Bold Web';
+  font-size: 20px;
+}
+
+.col-sm {
+  padding: 20px;
+  margin-right: -10%;
+  width: 540px;
+}
+
+.shoe-desc {
+  margin-top: 3%;
+  margin-left: 2%;
+  max-width: 525px;
+}
+
+.shoe-img {
+  margin-left: 20%;
+}
+
+.shoe-img img {
+  width: 430px;
+  height: 430px;
+}
+
+.para {
+  font-family: 'adihaus', sans-serif;
+  font-size: 18px !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-row {
+  width: 1080px;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.details {
+  font-family: 'adihaus', sans-serif;
+}
+
+#fbold {
+  font-family: 'adineue PRO Cyr Bold Web' !important;
+}
+
+.bold {
+  font-family: 'adineue PRO Cyr Bold Web' !important;
+  letter-spacing: 0.05em !important;
+}
+
+.col-sm li {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.first-col {
+  margin-right: 70px;
+  margin-left: 10px;
+}
+
+.sec-col {
+  margin-left: -90px;
+  margin-right: 30px;
+}
+
+.looks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.looks-title {
+  margin-left: 3%;
+  display: flex;
+  max-width: 200px;
+}
+
+.looks-title h4 {
+  font-family: 'adineue PRO Cyr Light Web';
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.looks-pics {
+  max-width: 300px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.looks-pics img {
+  height: 65px;
+  width: 65px;
+}
+
+.looks-pics h6 {
+  font-family: 'adihaus';
+  margin-right: 20px;
+  font-size: 15px !important;
+}
+
+.carousel-item {
+  transition: -webkit-transform 0.3s ease-in-out;
+}
+
+.carousel-item img {
+  margin-left: 1px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.prev-icon {
+color: black;
+ border: 2px solid white;
+ background-color: white;
+}
+
+.next-icon {
+  color: black;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.next-icon:hover{
+  color:white;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.prev-icon:hover{
+  color:white;
+  background-color: black;
+  border: 2px solid black;}
+
+.carousel-indicators {
+  margin-bottom: -100px;
+  color: #000000;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 1.5px;
+    margin: 3px;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #000;
+    /* transform-origin: 50% 100%;
+    transition: height .1s cubic-bezier(.3,0,.45,1); */
+    opacity: 100;
+}
+
+.carousel-indicators li:hover {
+  width: 20px;
+  height: 5px;
+  background-color: #000000;
+  color: #000000;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 5px;
+    background-color: #000000;
+}
+
+.carousel-indicators .inactive {
+    background-color: #000000;
+}
+
+.carousel-control-next {
+  display: flex;
+  justify-content: flex-end;
+  right: inherit;
+  /* margin-right: 1%; */
+  width: 20px;
+}
+
+.carousel-control-prev {
+  display: flex;
+  justify-content: flex-start;
+  left: inherit;
+  width: 20px;
+  /* margin-left: 1px; */
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+  margin-top: -600px;
+}
+
+.control-row {
+  width: 531px;
+  height: 400px;
+}
+
+.control-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.next-pos {
+  margin-left: 0px;
+  flex-direction: row-reverse;
+}
+
+.select-size-menu {
+  font-family: 'adihaus', sans-serif;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.select-size {
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  font-family: 'adihaus', sans-serif;
+  border: 1px solid #dddddd;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 12px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.select-size-btn {
+  font-family: 'adineue PRO Cyr Bold Web' !important;
+  font-size: 13px;
+  height: 45px;
+  width: 240px;
+  outline: 1px solid black;
+  letter-spacing: 2px;
+  border-radius: 0px;
+}
+
+.select-size:hover {
+  border-bottom: 2px solid black;
+}
+
+.select-size-dropdown {
+  border-radius: 0px !important;
+  border: 1px solid #000000 !important;
+  width:240px !important;
+  height: 90px !important;
+  margin-top: -4px !important;
+  border-top-color: #dddddd !important;
+}
+
+.dropdown:hover .bar-menu {
+    display: block;
+}
+
+.dropdown:hover #men-dropdown {
+  cursor: pointer;
+  background-color: white;
+  color: #000000 !important;
+}
+
+.dropdown:hover #women-dropdown {
+  cursor: pointer;
+  background-color: white;
+  color: #000000 !important;
+}
+
+.dropdown:hover #kids-dropdown {
+  cursor: pointer;
+  background-color: white;
+  color: #000000 !important;
+}
+
+.bar-menu {
+  outline: none !important;
+  background-color: white;
+  border: 1px solid transparent !important;
+  min-width: 1100px;
+  height: 100%;
+  left: 0;
+  overflow: visible !important ;
+}
+
+#women-dropdown .menu-men {
+  height: 400px !important;
+  margin-left: -300px !important;
+}
+
+.headline {
+  font-family: 'adineue PRO Cyr Bold Web' !important;
+  font-size: 18px !important;
+  text-transform: uppercase;
+}
+
+.col-5 li {
+  font-family: 'adihaus', sans-serif;
+  font-size: 15px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+}
+
+.col-5 li:hover {
+  text-decoration: underline;
+}
+
+.col-5 {
+  /* margin-right: -300px; */
+  padding: 0;
+  max-width: 200px;
+}
+
+.menu-men {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  left: 0;
+  margin-left: -150px;
+  background-color: white;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.choice-menu .dropdown-menu {
+  background-color: white;
+  width: 500px;
+  border-radius: 0px;
+  border: 1px solid #000000;
+  width:240px;
+  height: 90px;
+  margin-top: -4px;
+  border-top-color: #dddddd;
+}
+
+h5.look-clothing-name {
+  font-family: 'adineue PRO Cyr Bold Web';
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.look-clothing-price {
+  font-family: 'adihaus', sans-serif;
+  margin-bottom: 20px;
+}
+
+#shirtView, #jacketView, #pantView   {
+  border-top: 1px solid #DCDCDC;
+  width: 470px;
+}
+
+.look-desc {
+  margin-left: -35px;
+}
+
+.look-img {
+  margin-left: -15px;
+}
+
+.look-card {
+  height: 130px;
+  border-bottom: 0px solid #000000;
+}
+
+.enabled:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  width: 240px;
+  height: 45px;
+  box-shadow: inset 0 0 0 1px #000000;
+  transform: translate(3px,3px);
+}
+
+.disabled:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  width: 240px;
+  height: 45px;
+  box-shadow: inset 0 0 0 1px #767677;
+  transform: translate(3px,3px);
+  cursor: not-allowed;
+}
+
+.bottom-bold {
+  border-bottom: 3px solid #000000;
+}
+
+.fa-angle-down {
+  font-size: 25px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  float: right;
+  margin-right: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+#arrow-right {
+  margin-left: 70px;
+  font-size: 25px;
+}
+
+.bag-text {
+  vertical-align: super;
+}
+
+.look-size {
+  margin-left: 10px;
+}
+
+#add-to-bag {
+  font-family: 'adineue PRO Cyr Bold Web';
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: white;
+  height: 45px;
+  width: 240px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.disabled {
+  cursor: no-drop;
+  background-color: #767677;
+}
+
+.enabled {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.enabled:hover {
+  color: #767677 !important;
+}
+
+.shipping-bar {
+  text-align: center;
+  display: table;
+  font-family: 'adihaus', sans-serif;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #c8cbcc;
+}
+
+.shipping-bar h6 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.delivery {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.creators {
+  margin-left: 10px;
+}
+
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #0071ae;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.cart:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.cartIcon:hover {
+  color: #000000;
+}
+
+.cartNum {
+  font-size: 15px;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-desc{
+  font-family: 'adihaus', sans-serif;
+  font-size: 18px !important;
+  float: left;
+}
+
+.share-photo {
+  display: flex;
+  justify-content: center;
+  margin-left: -90px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.share-photo li {
+  list-style-type: none;
+  margin-bottom: 1px;
+  height: 250px;
+}
+
+.share-photo ul {
+  margin-right: -38.7px;
+  height: 501px;
+}
+
+.sm-share {
+  height: 250px;
+  width: 250px;
+}
+
+.lrg-share {
+  height: 501px;
+  width: 501px;
+}
+
+.overlay-blk {
+  background-color: #202020;
+}
+
+.overlay-blk:hover img{
+  background-color: black;
+  opacity: 0.2;
+  transition: opacity .2s cubic-bezier(.3,0,1,1);
+}
+
+.share-username{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50%;
+  font-family: 'adihaus', sans-serif;
+  color: white;
+  margin-bottom: 40%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.wishlist {
+  display: flex !important;
+  /* align-items: flex-end; */
+  position: relative;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* margin-top: -95%; */
+  /* margin-bottom: 80%; */
+  /* margin-right: 4%; */
+  padding: 10px;
+}
+
+.hearts{
+  width: 1000px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: -33%;
+}
+
+.heart-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wishlist:hover {
+  color: black;
+}
+
+.fa, .far {
+  height: 10px;
+  width: 10px;
+  color: #767677;
+  font-size: 0.58em;
+}
+
+.favorite {
+  height: 25px;
+  width: 25px;
+  color: #000000;
+  font-size: 1.3em;
+  padding: 2px 2px 2px 2px;
+}
+
+.favorite-heart {
+  margin-left: 195px;
+  margin-top: -220px;
+  margin-bottom: 220px;
+}
+
+.rating {
+  color: #767677;
+  font-size: 12px;
+  line-height: 10px;
+  padding-left: 5px;
+}
+
+.rating-review {
+  padding-top: 8px;
+}
+
+@media (max-width: 1200px) {
+  .shoe-desc {
+    margin-top: 5%;
+    margin-left: -5% !important;
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .shoe-desc {
+    margin-top: 5%;
+    margin-left: -2% !important;
+    max-width: 520px;
+  }
+
+  .title-1000 {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 1003px) {
+  .carousel-control-next {
+    right:8px;
+    margin-right: 0;
+    margin-top: -12px;
+    cursor: pointer;
+  }
+
+  .carousel-control-prev {
+    left:8px;
+    margin-top: -12px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 625px) {
+  .share-username{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -53%;
+    font-family: 'adihaus', sans-serif;
+    color: white;
+    margin-bottom: 40%;
+  }
+}

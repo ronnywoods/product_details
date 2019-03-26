@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Share Component should look like snapshot 1`] = `
+<div
+  className="share"
+>
+  <div
+    className="title-1000"
+  >
+    <h1>
+       SHARE HOW YOU WEAR IT 
+    </h1>
+    <p
+      className="share-desc"
+    >
+      Share a photo of your adidas favorite and appear in our showcase below. Make sure to tag your image with @adidas
+    </p>
+  </div>
+  <div
+    className="col-2-12 justify-content-center share-photo"
+  >
+    <ul>
+      <li>
+        <div
+          className="overlay-blk"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <img
+            className="lrg-share img-fluid"
+            src="https://s3-us-west-1.amazonaws.com/adidas-shoe/share3.jpg"
+          />
+        </div>
+        <span
+          className="share-username hidden"
+        >
+          anonymouse
+        </span>
+      </li>
+    </ul>
+    <ul>
+      <SmPicture
+        class="share-username hidden"
+        enter={[Function]}
+        img="https://s3-us-west-1.amazonaws.com/adidas-shoe/share7.jpg"
+        leave={[Function]}
+        user="indigosparkle"
+      />
+      <SmPicture
+        class="share-username hidden"
+        enter={[Function]}
+        img="https://s3-us-west-1.amazonaws.com/adidas-shoe/share1.jpg"
+        leave={[Function]}
+        user="weareliving"
+      />
+    </ul>
+    <ul>
+      <SmPicture
+        class="share-username hidden"
+        enter={[Function]}
+        img="https://s3-us-west-1.amazonaws.com/adidas-shoe/share5.jpg"
+        leave={[Function]}
+        user="urk3wl"
+      />
+      <SmPicture
+        class="share-username hidden"
+        enter={[Function]}
+        img="https://s3-us-west-1.amazonaws.com/adidas-shoe/share3.jpg"
+        leave={[Function]}
+        user="cereal_killer"
+      />
+    </ul>
+  </div>
+</div>
+`;

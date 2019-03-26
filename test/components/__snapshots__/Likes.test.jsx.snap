@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Likes component should display like snapshot 1`] = `
+<div
+  className="like"
+>
+  <div
+    className="carousel slide"
+    data-interval="false"
+    data-wrap="false"
+    id="carouselLikes"
+  >
+    <ol
+      className="carousel-indicators"
+    >
+      <li
+        className="active"
+        data-slide-to="0"
+        data-target="#carouselLikes"
+        onClick={[Function]}
+      />
+      <li
+        data-slide-to="1"
+        data-target="#carouselLikes"
+        onClick={[Function]}
+      />
+      <li
+        data-slide-to="2"
+        data-target="#carouselLikes"
+        onClick={[Function]}
+      />
+      <li
+        data-slide-to="3"
+        data-target="#carouselLikes"
+        onClick={[Function]}
+      />
+    </ol>
+    <div
+      className="carousel-inner"
+    >
+      <div
+        className="carousel-item active"
+      >
+        <LikeCard
+          shoes={
+            Array [
+              Object {
+                "category": "Performance",
+                "id": 1,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/14.jpg",
+                "long_desc": "This is a long description of solarboost",
+                "name": "SOLARBOOST",
+                "price": 110,
+                "short_desc": "This is a short description for solarboost",
+              },
+              Object {
+                "category": "Comfort",
+                "id": 2,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/13.jpg",
+                "long_desc": "This is a long description of andalax",
+                "name": "ANDALAX",
+                "price": 115,
+                "short_desc": "This is a short description for andalax",
+              },
+              Object {
+                "category": "Originals",
+                "id": 3,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/12.jpg",
+                "name": "SOLAR GLIDE",
+                "price": 130,
+              },
+              Object {
+                "category": "Performance",
+                "id": 4,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/ultraboost-black.jpg",
+                "name": "ULTRABOOST",
+                "price": 95,
+              },
+            ]
+          }
+        />
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <LikeCard
+          shoes={
+            Array [
+              Object {
+                "category": "Performance",
+                "id": 5,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/11.jpg",
+                "name": "SOLAR GLIDE ST",
+                "price": 140,
+              },
+              Object {
+                "category": "Performance",
+                "id": 6,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/14.jpg",
+                "name": "SOLARBOOST",
+                "price": 110,
+              },
+              Object {
+                "category": "Comfort",
+                "id": 7,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/13.jpg",
+                "name": "ANDALAX",
+                "price": 115,
+              },
+              Object {
+                "category": "Originals",
+                "id": 8,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/12.jpg",
+                "name": "SOLAR GLIDE",
+                "price": 130,
+              },
+            ]
+          }
+        />
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <LikeCard
+          shoes={
+            Array [
+              Object {
+                "category": "Performance",
+                "id": 9,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/ultraboost-black.jpg",
+                "name": "ULTRABOOST",
+                "price": 95,
+              },
+              Object {
+                "category": "Performance",
+                "id": 10,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/11.jpg",
+                "name": "SOLAR GLIDE ST",
+                "price": 140,
+              },
+              Object {
+                "category": "Performance",
+                "id": 11,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/14.jpg",
+                "name": "SOLARBOOST",
+                "price": 110,
+              },
+              Object {
+                "category": "Comfort",
+                "id": 12,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/13.jpg",
+                "name": "ANDALAX",
+                "price": 115,
+              },
+            ]
+          }
+        />
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <LikeCard
+          shoes={
+            Array [
+              Object {
+                "category": "Originals",
+                "id": 13,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/12.jpg",
+                "name": "SOLAR GLIDE",
+                "price": 130,
+              },
+              Object {
+                "category": "Performance",
+                "id": 14,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/ultraboost-black.jpg",
+                "name": "ULTRABOOST",
+                "price": 95,
+              },
+              Object {
+                "category": "Performance",
+                "id": 15,
+                "img_url": "https://s3-us-west-1.amazonaws.com/adidas-shoe/11.jpg",
+                "name": "SOLAR GLIDE ST",
+                "price": 140,
+              },
+            ]
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="control-icons"
+    >
+      <div
+        className="controls"
+      >
+        <div
+          className="row control-row"
+        >
+          <a
+            className="carousel-control-prev hidden"
+            data-slide="prev"
+            href="#carouselLikes"
+            onClick={[Function]}
+            role="button"
+          >
+            <i
+              className="material-icons prev-icon"
+            >
+              chevron_left
+            </i>
+          </a>
+        </div>
+        <div
+          className="row control-row next-pos"
+        >
+          <a
+            className="carousel-control-next"
+            data-slide="next"
+            href="#carouselLikes"
+            onClick={[Function]}
+            role="button"
+          >
+            <i
+              className="material-icons next-icon"
+            >
+              chevron_right
+            </i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

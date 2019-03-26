@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description Component should render description correctly when passed in descriptions 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm shoe-desc"
+    >
+      <h2
+        className="detail-name"
+      >
+        ULTRABOOST
+      </h2>
+      <h5
+        className="short-desc"
+      >
+        This is a short description
+      </h5>
+      <p
+        className="para"
+      >
+        This is a long description of ultraboost.
+      </p>
+    </div>
+    <div
+      className="col-sm shoe-img"
+    >
+      <img
+        src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/29ffefeadfb448bfae6ba93b007c3f38_9366/POD-S3_1_Shoes_Black_G54741_04_standard.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

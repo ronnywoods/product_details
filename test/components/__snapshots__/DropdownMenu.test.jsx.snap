@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Menu Component should match snapshot when props are passed in 1`] = `
+<div
+  className="col-5"
+>
+  <ul>
+    <li
+      className="headline"
+    >
+      FEATURED
+    </li>
+    <li
+      key="New Arrivals0"
+    >
+      New Arrivals
+    </li>
+    <li
+      key="Best Sellers1"
+    >
+      Best Sellers
+    </li>
+    <li
+      key="Release Dates2"
+    >
+      Release Dates
+    </li>
+    <li
+      className="gray"
+      key="____3"
+    >
+      ____
+    </li>
+    <li
+      key="YEEZY4"
+    >
+      YEEZY
+    </li>
+    <li
+      key="Ultraboost5"
+    >
+      Ultraboost
+    </li>
+    <li
+      key="NMD6"
+    >
+      NMD
+    </li>
+    <li
+      key="Statement Sneakers7"
+    >
+      Statement Sneakers
+    </li>
+    <li
+      key="Workout Essentials8"
+    >
+      Workout Essentials
+    </li>
+    <li
+      className="gray"
+      key="____9"
+    >
+      ____
+    </li>
+    <li
+      className="bold"
+      key="Sale10"
+    >
+      Sale
+    </li>
+  </ul>
+</div>
+`;

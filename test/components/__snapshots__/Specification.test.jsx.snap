@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Specification Component should display like snapshot 1`] = `
+<div
+  className="details container"
+>
+  <div
+    className="row detail-row"
+  >
+    <div
+      className="col-sm first-col"
+    >
+      <ul>
+        <li
+          key="0"
+        >
+          Lace closure
+        </li>
+        <li
+          key="1"
+        >
+          Seam-sealed stretch-mesh upper
+        </li>
+        <li
+          key="2"
+        >
+          Arch type: Normal
+        </li>
+      </ul>
+    </div>
+    <div
+      className="col-sm sec-col"
+    >
+      <ul>
+        <li
+          key="0"
+        >
+          supportive feel
+        </li>
+        <li
+          key="1"
+        >
+          imported
+        </li>
+        <li
+          key="2"
+        >
+          Product Code: B31231
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

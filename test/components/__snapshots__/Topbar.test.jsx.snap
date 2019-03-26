@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topbar/Navbar Component When cart has contents should match snapshot when cart has content 1`] = `
+<div
+  className="sticky-top"
+>
+  <div
+    className="topBar"
+  >
+    <div
+      className="help white"
+    >
+      <li>
+         HELP
+      </li>
+      <li>
+         | 
+      </li>
+      <li>
+         ORDER TRACKER AND RETURNS
+      </li>
+      <li>
+         | 
+      </li>
+      <li
+        id="fbold"
+      >
+         NEWSLETTER SIGNUP
+      </li>
+      <li>
+         LOGIN
+      </li>
+      <li />
+      <i
+        className="material-icons md-light"
+      >
+        person
+      </i>
+    </div>
+  </div>
+  <div
+    className="bBar"
+  >
+    <div
+      className="row width-100"
+    >
+      <img
+        className="nav-logo d-inline-block align-top"
+        height="75"
+        src="https://s3-us-west-1.amazonaws.com/adidas-shoe/adidas-logo-white.png"
+        width="75"
+      />
+      <div
+        className="choices"
+      >
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="men-dropdown"
+          >
+             MENS
+          </li>
+          <div
+            aria-labelledby="dropdown-men"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "Release Dates",
+                    "____",
+                    "YEEZY",
+                    "Ultraboost",
+                    "Harden Vol.3",
+                    "NMD",
+                    "Statement Sneakers",
+                    "Workout Essentials",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Originals",
+                    "Running",
+                    "Soccer",
+                    "Basketball",
+                    "Football",
+                    "Skateboarding",
+                    "Workout",
+                    "Essentials",
+                    "Sandals & Sneakers",
+                    "Hiking",
+                    "Golf",
+                    "Tennis",
+                    "Basketball",
+                    "Sale Shoes",
+                  ]
+                }
+                title="SHOES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Pants",
+                    "Hoodies & Sweatshirts",
+                    "Jackets & Vests",
+                    "Track Suits",
+                    "Short Sleeve Shirts",
+                    "Graphic T-Shirts",
+                    "Long Sleeve Shirts",
+                    "Jerseys",
+                    "Tights",
+                    "Shorts",
+                    "Tank Tops",
+                    "Sale Apparel",
+                  ]
+                }
+                title="CLOTHING"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Bags & Backpacks",
+                    "Hats & Beanies ",
+                    "Socks",
+                    "Phone Cases",
+                    "Sunglasses",
+                    "Balls",
+                    "Watches",
+                    "Gloves",
+                    "All Accessories",
+                    "Sale Accessories",
+                  ]
+                }
+                title="ACCESORIES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Running",
+                    "Soccer",
+                    "Basketball",
+                    "Football",
+                    "Skateboarding",
+                    "Training",
+                    "Outdoor",
+                    "Tennis",
+                    "Golf",
+                    "Hockey",
+                    "Baseball",
+                    "Lacrosse",
+                    "Volleyball",
+                    "Weightlifting",
+                    "College Gear",
+                  ]
+                }
+                title="SPORTS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="women-dropdown"
+          >
+             WOMENS
+          </li>
+          <div
+            aria-labelledby="dropdown-women"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "Release Dates",
+                    "____",
+                    "YEEZY",
+                    "Ultraboost",
+                    "NMD",
+                    "Statement Sneakers",
+                    "Workout Essentials",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Originals",
+                    "Running",
+                    "Workout",
+                    "Essentials",
+                    "Sandals & Sneakers",
+                    "Hiking",
+                    "Golf",
+                    "Soccer",
+                    "Tennis",
+                    "Volleyball",
+                    "Sale Shoes",
+                  ]
+                }
+                title="SHOES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Hoodies & Sweatshirts",
+                    "Pants",
+                    "Leggings & Tights",
+                    "Sports Bras",
+                    "Jackets & Vests",
+                    "Track Suits",
+                    "Long Sleeve Shirts",
+                    "Dresses & Skirts",
+                    "Shorts",
+                    "Tank Tops",
+                    "Sale Apparel",
+                  ]
+                }
+                title="CLOTHING"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Bags & Backpacks",
+                    "Hats & Beanies ",
+                    "Socks",
+                    "Phone Cases",
+                    "Sunglasses",
+                    "Balls",
+                    "Watches",
+                    "Gloves",
+                    "All Accessories",
+                    "Sale Accessories",
+                  ]
+                }
+                title="ACCESORIES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Running",
+                    "Training",
+                    "Soccer",
+                    "Basketball",
+                    "Skateboarding",
+                    "Outdoor",
+                    "Tennis",
+                    "Golf",
+                    "Yoga",
+                    "Lacrosse",
+                    "Volleyball",
+                    "Hockey",
+                    "College Gear",
+                  ]
+                }
+                title="SPORTS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="kids-dropdown"
+          >
+             KIDS
+          </li>
+          <div
+            aria-labelledby="dropdown-kids"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "____",
+                    "Ultraboost",
+                    "NMD",
+                    "adicolor",
+                    "Statement Sneakers",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Boys Shoes",
+                    "Girls Shoes",
+                    "Original Shoes",
+                    "Sport Shoes",
+                    "____",
+                    "Boys Clothing",
+                    "Girls Clothing",
+                    "Hoodies & SweatShirts",
+                    "Pants & Shorts",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="YOUTH
+(8-14)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Boys Shoes",
+                    "Girls Shoes",
+                    "Original Shoes",
+                    "Sport Shoes",
+                    "____",
+                    "Boys Clothing",
+                    "Girls Clothing",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="CHILDREN
+(4-8)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Shoes",
+                    "Clothing",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="BABY
+(0-4)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Socks",
+                    "Hats & Beanies",
+                    "Balls",
+                  ]
+                }
+                title="ACCESSORIES"
+              />
+            </div>
+          </div>
+        </div>
+        <li
+          className="gray"
+        >
+           | 
+        </li>
+        <li
+          className="choice-menu white"
+        >
+           SPORTS
+        </li>
+        <li
+          className="choice-menu white"
+        >
+           BRANDS
+        </li>
+      </div>
+    </div>
+    <div
+      className="search white"
+    >
+      <span
+        id="search-box"
+      >
+        <i
+          className="material-icons"
+        >
+          search
+        </i>
+      </span>
+      <input
+        placeholder="search"
+        type="text"
+      />
+      <li />
+      <div
+        className="cart"
+      >
+        <i
+          className="material-icons md-light cartIcon"
+        >
+          shopping_cart
+        </i>
+        <span
+          className="cartNum"
+        >
+          2
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="shipping-bar"
+  >
+    <h6>
+      <i
+        className="material-icons delivery"
+        height="24"
+        width="24"
+      >
+        local_shipping
+      </i>
+      <span
+        className="underline"
+      >
+        FREE SHIPPING AND RETURNS
+      </span>
+      <img
+        className="creators"
+        height="24"
+        src="https://s3-us-west-1.amazonaws.com/adidas-shoe/adidas-icon-creator.png"
+        width="24"
+      />
+      <span
+        className="underline"
+      >
+        CREATORS GET REWARDED - JOIN THE NEW ADIDAS CREATOR CLUB
+      </span>
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`Topbar/Navbar Component When cart is empty should match snapshot when cart is empty 1`] = `
+<div
+  className="sticky-top"
+>
+  <div
+    className="topBar"
+  >
+    <div
+      className="help white"
+    >
+      <li>
+         HELP
+      </li>
+      <li>
+         | 
+      </li>
+      <li>
+         ORDER TRACKER AND RETURNS
+      </li>
+      <li>
+         | 
+      </li>
+      <li
+        id="fbold"
+      >
+         NEWSLETTER SIGNUP
+      </li>
+      <li>
+         LOGIN
+      </li>
+      <li />
+      <i
+        className="material-icons md-light"
+      >
+        person
+      </i>
+    </div>
+  </div>
+  <div
+    className="bBar"
+  >
+    <div
+      className="row width-100"
+    >
+      <img
+        className="nav-logo d-inline-block align-top"
+        height="75"
+        src="https://s3-us-west-1.amazonaws.com/adidas-shoe/adidas-logo-white.png"
+        width="75"
+      />
+      <div
+        className="choices"
+      >
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="men-dropdown"
+          >
+             MENS
+          </li>
+          <div
+            aria-labelledby="dropdown-men"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "Release Dates",
+                    "____",
+                    "YEEZY",
+                    "Ultraboost",
+                    "Harden Vol.3",
+                    "NMD",
+                    "Statement Sneakers",
+                    "Workout Essentials",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Originals",
+                    "Running",
+                    "Soccer",
+                    "Basketball",
+                    "Football",
+                    "Skateboarding",
+                    "Workout",
+                    "Essentials",
+                    "Sandals & Sneakers",
+                    "Hiking",
+                    "Golf",
+                    "Tennis",
+                    "Basketball",
+                    "Sale Shoes",
+                  ]
+                }
+                title="SHOES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Pants",
+                    "Hoodies & Sweatshirts",
+                    "Jackets & Vests",
+                    "Track Suits",
+                    "Short Sleeve Shirts",
+                    "Graphic T-Shirts",
+                    "Long Sleeve Shirts",
+                    "Jerseys",
+                    "Tights",
+                    "Shorts",
+                    "Tank Tops",
+                    "Sale Apparel",
+                  ]
+                }
+                title="CLOTHING"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Bags & Backpacks",
+                    "Hats & Beanies ",
+                    "Socks",
+                    "Phone Cases",
+                    "Sunglasses",
+                    "Balls",
+                    "Watches",
+                    "Gloves",
+                    "All Accessories",
+                    "Sale Accessories",
+                  ]
+                }
+                title="ACCESORIES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Running",
+                    "Soccer",
+                    "Basketball",
+                    "Football",
+                    "Skateboarding",
+                    "Training",
+                    "Outdoor",
+                    "Tennis",
+                    "Golf",
+                    "Hockey",
+                    "Baseball",
+                    "Lacrosse",
+                    "Volleyball",
+                    "Weightlifting",
+                    "College Gear",
+                  ]
+                }
+                title="SPORTS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="women-dropdown"
+          >
+             WOMENS
+          </li>
+          <div
+            aria-labelledby="dropdown-women"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "Release Dates",
+                    "____",
+                    "YEEZY",
+                    "Ultraboost",
+                    "NMD",
+                    "Statement Sneakers",
+                    "Workout Essentials",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Originals",
+                    "Running",
+                    "Workout",
+                    "Essentials",
+                    "Sandals & Sneakers",
+                    "Hiking",
+                    "Golf",
+                    "Soccer",
+                    "Tennis",
+                    "Volleyball",
+                    "Sale Shoes",
+                  ]
+                }
+                title="SHOES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Hoodies & Sweatshirts",
+                    "Pants",
+                    "Leggings & Tights",
+                    "Sports Bras",
+                    "Jackets & Vests",
+                    "Track Suits",
+                    "Long Sleeve Shirts",
+                    "Dresses & Skirts",
+                    "Shorts",
+                    "Tank Tops",
+                    "Sale Apparel",
+                  ]
+                }
+                title="CLOTHING"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Bags & Backpacks",
+                    "Hats & Beanies ",
+                    "Socks",
+                    "Phone Cases",
+                    "Sunglasses",
+                    "Balls",
+                    "Watches",
+                    "Gloves",
+                    "All Accessories",
+                    "Sale Accessories",
+                  ]
+                }
+                title="ACCESORIES"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Running",
+                    "Training",
+                    "Soccer",
+                    "Basketball",
+                    "Skateboarding",
+                    "Outdoor",
+                    "Tennis",
+                    "Golf",
+                    "Yoga",
+                    "Lacrosse",
+                    "Volleyball",
+                    "Hockey",
+                    "College Gear",
+                  ]
+                }
+                title="SPORTS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="dropdown"
+        >
+          <li
+            className="choice-menu white"
+            data-toggle="dropdown"
+            id="kids-dropdown"
+          >
+             KIDS
+          </li>
+          <div
+            aria-labelledby="dropdown-kids"
+            className="dropdown-menu bar-menu"
+          >
+            <div
+              className="menu-men"
+            >
+              <DropdownMenu
+                options={
+                  Array [
+                    "New Arrivals",
+                    "Best Sellers",
+                    "____",
+                    "Ultraboost",
+                    "NMD",
+                    "adicolor",
+                    "Statement Sneakers",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="FEATURED"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Boys Shoes",
+                    "Girls Shoes",
+                    "Original Shoes",
+                    "Sport Shoes",
+                    "____",
+                    "Boys Clothing",
+                    "Girls Clothing",
+                    "Hoodies & SweatShirts",
+                    "Pants & Shorts",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="YOUTH
+(8-14)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Boys Shoes",
+                    "Girls Shoes",
+                    "Original Shoes",
+                    "Sport Shoes",
+                    "____",
+                    "Boys Clothing",
+                    "Girls Clothing",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="CHILDREN
+(4-8)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Shoes",
+                    "Clothing",
+                    "____",
+                    "Sale",
+                  ]
+                }
+                title="BABY
+(0-4)"
+              />
+              <DropdownMenu
+                options={
+                  Array [
+                    "Socks",
+                    "Hats & Beanies",
+                    "Balls",
+                  ]
+                }
+                title="ACCESSORIES"
+              />
+            </div>
+          </div>
+        </div>
+        <li
+          className="gray"
+        >
+           | 
+        </li>
+        <li
+          className="choice-menu white"
+        >
+           SPORTS
+        </li>
+        <li
+          className="choice-menu white"
+        >
+           BRANDS
+        </li>
+      </div>
+    </div>
+    <div
+      className="search white"
+    >
+      <span
+        id="search-box"
+      >
+        <i
+          className="material-icons"
+        >
+          search
+        </i>
+      </span>
+      <input
+        placeholder="search"
+        type="text"
+      />
+      <li />
+      <div
+        className=""
+      >
+        <i
+          className="material-icons md-light"
+        >
+          shopping_cart
+        </i>
+        <span
+          className="cartNum"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="shipping-bar"
+  >
+    <h6>
+      <i
+        className="material-icons delivery"
+        height="24"
+        width="24"
+      >
+        local_shipping
+      </i>
+      <span
+        className="underline"
+      >
+        FREE SHIPPING AND RETURNS
+      </span>
+      <img
+        className="creators"
+        height="24"
+        src="https://s3-us-west-1.amazonaws.com/adidas-shoe/adidas-icon-creator.png"
+        width="24"
+      />
+      <span
+        className="underline"
+      >
+        CREATORS GET REWARDED - JOIN THE NEW ADIDAS CREATOR CLUB
+      </span>
+    </h6>
+  </div>
+</div>
+`;

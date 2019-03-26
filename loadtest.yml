@@ -1,0 +1,52 @@
+config:
+  target: 'http://localhost:8001'
+  processor: './loadtestFunc.js'
+  phases:
+    - duration: 30
+      arrivalCount: 5
+      name: 'Warm up the application'
+    - duration: 60
+      arrivalRate: 1
+      name: 'ready for ramp'
+    - duration: 190
+      arrivalRate: 1
+      rampTo: 35
+      name: 'ramp up phase'
+    - duration: 120
+      arrivalRate: 35
+      ranpTo: 45
+      name: 'sustained heavy load'
+scenarios:
+  - flow:
+    - function: 'generateRandomProduct'
+    # - get:
+    #     url: "/{{ product }}"
+    # - get:
+    #     url: "https://d23lkqa0hnre2j.cloudfront.net/bootstrap.css"
+    # - get:
+    #     url: "https://s3.amazonaws.com/abibasstatics/style.css"
+    # - get:
+    #     url: "https://s3.amazonaws.com/abibasstatics/adineuePROCyr-LightWeb.woff"
+    # - get:
+    #     url: "https://s3.amazonaws.com/abibasstatics/adineuePROCyr-BoldWeb.woff"
+    # - get:
+    #     url: "https://s3.amazonaws.com/abibasstatics/AdihausDIN.ttf"
+    # - get:
+    #     url: "https://s3.amazonaws.com/abibasstatics/bundle.js"
+    - get:
+        url: "/shoes/{{ product }}"
+    - get:
+        url: "/shares/{{ product }}"
+    - get:
+        url: "/shoes"
+    # - get:
+    #     url: "https://d23lkqa0hnre2j.cloudfront.net/bootstrap.min.js"
+    - loop:
+      - function: 'generateRandomProduct'
+      - get:
+          url: "/shoes/{{ product }}"
+      - get:
+          url: "/shares/{{ product }}"
+      - get:
+          url: "/shoes"
+      count: 9

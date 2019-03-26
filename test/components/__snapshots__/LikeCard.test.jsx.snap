@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LikeCard Component should match snapshot 1`] = `
+<div
+  className="likes-card"
+>
+  <div
+    className="card"
+    onClick={[Function]}
+  >
+    <img
+      alt="adidas shoe"
+      className="card-img-top likes d-block"
+      src="https://s3-us-west-1.amazonaws.com/adidas-shoe/14.jpg"
+    />
+    <div
+      className="card-body"
+    >
+      <span
+        className="like-type"
+      >
+        Performance
+      </span>
+      <br />
+      <span
+        className="like-name"
+      >
+        SOLARBOOST
+      </span>
+      <br />
+      <span
+        className="like-price"
+      >
+        $
+        110
+      </span>
+      <br />
+      <div
+        className="rating-review"
+      >
+        <RatingAPILayer
+          direction="ltr"
+          emptySymbol="far fa-star"
+          fractions={4}
+          fullSymbol="fa fa-star"
+          initialRating={NaN}
+          onChange={[Function]}
+          onClick={[Function]}
+          onHover={[Function]}
+          placeholderSymbol={
+            Object {
+              "backgroundColor": "red",
+              "border": "5px double white",
+              "borderRadius": "50%",
+              "display": "inline-block",
+              "height": 30,
+              "width": 30,
+            }
+          }
+          quiet={false}
+          readonly={true}
+          start={0}
+          step={1}
+          stop={5}
+        />
+        <span
+          className="rating"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+    onClick={[Function]}
+  >
+    <img
+      alt="adidas shoe"
+      className="card-img-top likes d-block"
+      src="https://s3-us-west-1.amazonaws.com/adidas-shoe/13.jpg"
+    />
+    <div
+      className="card-body"
+    >
+      <span
+        className="like-type"
+      >
+        Comfort
+      </span>
+      <br />
+      <span
+        className="like-name"
+      >
+        ANDALAX
+      </span>
+      <br />
+      <span
+        className="like-price"
+      >
+        $
+        115
+      </span>
+      <br />
+      <div
+        className="rating-review"
+      >
+        <RatingAPILayer
+          direction="ltr"
+          emptySymbol="far fa-star"
+          fractions={4}
+          fullSymbol="fa fa-star"
+          initialRating={NaN}
+          onChange={[Function]}
+          onClick={[Function]}
+          onHover={[Function]}
+          placeholderSymbol={
+            Object {
+              "backgroundColor": "red",
+              "border": "5px double white",
+              "borderRadius": "50%",
+              "display": "inline-block",
+              "height": 30,
+              "width": 30,
+            }
+          }
+          quiet={false}
+          readonly={true}
+          start={0}
+          step={1}
+          stop={5}
+        />
+        <span
+          className="rating"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+    onClick={[Function]}
+  >
+    <img
+      alt="adidas shoe"
+      className="card-img-top likes d-block"
+      src="https://s3-us-west-1.amazonaws.com/adidas-shoe/12.jpg"
+    />
+    <div
+      className="card-body"
+    >
+      <span
+        className="like-type"
+      >
+        Originals
+      </span>
+      <br />
+      <span
+        className="like-name"
+      >
+        SOLAR GLIDE
+      </span>
+      <br />
+      <span
+        className="like-price"
+      >
+        $
+        130
+      </span>
+      <br />
+      <div
+        className="rating-review"
+      >
+        <RatingAPILayer
+          direction="ltr"
+          emptySymbol="far fa-star"
+          fractions={4}
+          fullSymbol="fa fa-star"
+          initialRating={NaN}
+          onChange={[Function]}
+          onClick={[Function]}
+          onHover={[Function]}
+          placeholderSymbol={
+            Object {
+              "backgroundColor": "red",
+              "border": "5px double white",
+              "borderRadius": "50%",
+              "display": "inline-block",
+              "height": 30,
+              "width": 30,
+            }
+          }
+          quiet={false}
+          readonly={true}
+          start={0}
+          step={1}
+          stop={5}
+        />
+        <span
+          className="rating"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+    onClick={[Function]}
+  >
+    <img
+      alt="adidas shoe"
+      className="card-img-top likes d-block"
+      src="https://s3-us-west-1.amazonaws.com/adidas-shoe/ultraboost-black.jpg"
+    />
+    <div
+      className="card-body"
+    >
+      <span
+        className="like-type"
+      >
+        Performance
+      </span>
+      <br />
+      <span
+        className="like-name"
+      >
+        ULTRABOOST
+      </span>
+      <br />
+      <span
+        className="like-price"
+      >
+        $
+        95
+      </span>
+      <br />
+      <div
+        className="rating-review"
+      >
+        <RatingAPILayer
+          direction="ltr"
+          emptySymbol="far fa-star"
+          fractions={4}
+          fullSymbol="fa fa-star"
+          initialRating={NaN}
+          onChange={[Function]}
+          onClick={[Function]}
+          onHover={[Function]}
+          placeholderSymbol={
+            Object {
+              "backgroundColor": "red",
+              "border": "5px double white",
+              "borderRadius": "50%",
+              "display": "inline-block",
+              "height": 30,
+              "width": 30,
+            }
+          }
+          quiet={false}
+          readonly={true}
+          start={0}
+          step={1}
+          stop={5}
+        />
+        <span
+          className="rating"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
